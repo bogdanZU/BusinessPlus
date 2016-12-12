@@ -1,0 +1,33 @@
+body {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+}
+a {
+	color: #ffffff;
+	&:hover {
+		text-decoration: none;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+	&:link {
+		text-decoration: none;
+	}
+}
+ol, ul, dl, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, label, figure, address {
+	margin: 0;
+	font-size: 0;
+}
+.navbar {
+	padding: 0;
+	border-radius: none;
+}
+[type="button"],
+[type="submit"] {
+	cursor: pointer;
+	&:focus {
+		outline: none;
+		padding: 0;
+	}
+}

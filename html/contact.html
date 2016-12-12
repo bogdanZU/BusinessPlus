@@ -1,0 +1,70 @@
+#=include 'includes/_header-contact.html'
+<div class="banner">
+	<img src="img/banner-contact.jpg" alt="">
+</div>
+<section class="container contact-page">
+	<header class="row">
+		<div class="col-xs-12">
+			<h1 class="heading">Get in touch</h1>
+			<h2 class="sub-heading contact-sub-heading">Feel free to contact us</h2>
+		</div>
+		<div class="col-xs-3">
+			<a href="tel:9978 8856 999" class="phone variant-two">+ 9978  8856  999</a>
+		</div>
+		<div class="col-xs-9 media flex-items-xs-right">
+			<button type="button" class="orange-btn hover-black info-contact button">
+				<span>info@businessplus.com</span>
+			</button>
+		</div>
+	</header>
+	<div class="contact-info row">
+		<div class="wrapper-img">
+			<img src="img/map-img.jpg" alt="">
+		</div>
+		<div class="text-contact media flex-items-xs-center col-xs-12 col-md-11 offset-md-1">
+			<span class="country">Canada</span>
+			<address class="address">100 Mission St, Canada street, Second flor 8878</address>
+		</div>
+	</div>
+</section>
+<section class="contact-form back-gray">
+	<div class="container pyramids">
+		<header>
+			<h1 class="heading">Contact From</h1>
+			<h2 class="sub-heading">Fill your requirments now</h2>
+		</header>
+		<div class="form-block">
+			<form action="#" method="post" class="form-valid row mx-0">
+				<label for="name-contact" class="required col-xs-12 label-wrapper">
+					<input type="text" id="name-contact" required name="name-contact">
+					<span>Name</span>
+				</label>
+				<label for="email-address" class="email required col-xs-12 label-wrapper">
+					<input type="text" id="email-address" required name="email-address" class="valid-email">
+					<span>Email Address</span>
+				</label>
+				<label for="phone" class="required col-xs-12 label-wrapper">
+					<input type="phone" id="phone" required name="phone">
+					<span>PHone number</span>
+				</label>
+				
+				<div class="select-custom star">
+					<select class="select">
+						<option value="text">Service</option>
+						<option value="1">Service1</option>
+						<option value="2">Service2</option>
+						<option value="3">Service3</option>
+					</select>
+				</div>
+				<label for="message" class="required textarea col-xs-12 label-wrapper">
+					<textarea name="message" id="message" required></textarea>
+					<span>Message</span>
+				</label>
+				<button type="submit" role="button" class="button btn-form orange-btn hover-black">
+					<span>Submit Now</span>
+				</button>
+			</form>
+		</div>
+	</div>
+</section>
+#=include 'includes/_footer.html'

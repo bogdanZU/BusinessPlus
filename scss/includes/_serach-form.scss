@@ -1,0 +1,60 @@
+.search-questions {
+	margin-top: 79px;
+	padding-top: 92px;
+	background: #eaeff3;
+	.sub-heading {
+		margin-bottom: 28px;
+	}
+	.pyramids-bottom {
+		padding-bottom: 108px;
+		&:after {
+			z-index: 3;
+		}
+	}
+}
+.search-form {
+	position: relative;
+	padding-bottom: 62px;
+	input {
+		display: block;
+		width: 100%;
+		border: 1px solid #e0e7ec;
+		font-size: 14px;
+		color: #a9a9a9;
+		line-height: 43px;
+		padding-left: 25px;
+		&::-webkit-input-placeholder {
+			color:#a9a9a9;
+			opacity: 1;
+		}
+		&::-moz-placeholder          {
+			color:#a9a9a9;
+			opacity: 1;
+		}
+		&:-moz-placeholder           {
+			color:#a9a9a9;
+			opacity: 1;
+		}
+		&:-ms-input-placeholder      {
+			color:#a9a9a9;
+			opacity: 1;
+		}
+	}
+	.btn-search {
+		width: 47px;
+		height: 47px;
+		border: none;
+		background: #ffaf36;
+		position: absolute;
+		right: 15px;
+		top: 0;
+		font-size: 15px;
+		z-index: 1;
+		padding: 0;
+		color: #2a2b2c;
+		&:hover {
+			background: #2a2b2c;
+			color: #ffaf36;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.list-icon {
+	display: inline-block;
+	vertical-align: middle;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 10px;
+		&:first-child {
+			padding-left: 0;
+		}
+		a {
+			font-size: 22px;
+			display: block;
+			width: 51px;
+			border-radius: 51px;
+			color: #ffffff;
+			text-align: center;
+			line-height: 51px;
+			height: 51px;
+			&:hover {
+				background: #ffffff;
+				line-height: 49px;
+			}
+		}
+	}
+	.facebook {
+		background: #496fa5;
+		&:hover {
+			color: #496fa5;
+			border: 2px solid #496fa5;
+		}
+	}
+	.twitter {
+		background: #00baef;
+		&:hover {
+			color: #00baef;
+			border: 2px solid #00baef;
+		}
+	}
+	.google {
+		background: #eb4125;
+		&:hover {
+			color: #eb4125;
+			border: 2px solid #eb4125;
+		}
+	}
+}

@@ -1,0 +1,60 @@
+.button {
+	display: inline-block;
+	vertical-align: top;
+	width: 151px;
+	height: 51px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	background: transparent;
+	line-height: 47px;
+	border: none;
+}
+.orange-btn {
+	color: #ffaf36;
+	border: 2px solid #ffaf36;
+}
+.hover-black {
+	transition: all 0.8s ease 0s;
+	overflow: hidden;
+	position: relative;
+	&:hover {
+		color: #ffffff;
+		border: 2px solid black;
+		&:before {
+			width: 200%;
+		}
+	}
+	&:before {
+		background-color: black;
+		content: "";
+		height: 100%;
+		left: -30%;
+		position: absolute;
+		top: 0;
+		transition: all 0.8s ease 0s;
+		width: 0;
+		z-index: 1;
+		transform: skewX(50deg);
+	}
+	span {
+		z-index: 2;
+		position: relative;
+	}
+}
+.info-contact {
+	width: 301px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+}
+.btn-accordion {
+	background: #ffaf36;
+	&:hover {
+		color: #ffffff;
+		background: #000000;
+	}
+}

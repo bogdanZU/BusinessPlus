@@ -1,0 +1,53 @@
+.contact-form {
+	padding-top: 85px;
+	.form-block {
+		padding-top: 2px;
+		padding-bottom: 100px;
+	}
+	.label-wrapper {
+		border: none;
+		border-bottom: 1px solid #dce3e8;
+		margin-bottom: 33px;
+		input,
+		span,
+		textarea {
+			line-height: 40px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #757c81;
+			padding-left: 0;
+			letter-spacing: 0.11em;
+		}
+		textarea {
+			padding-top: 0;
+			line-height: normal;
+			height: 261px;
+		}
+		span {
+			&::before {
+				right: 1px;
+				top: -3px;
+			}
+		}
+	}
+	.textarea.required span {
+		letter-spacing: 0.11em;
+		top: 11px;
+	}
+	.btn-form {
+		margin-top: 19px;
+	}
+	.pyramids {
+		&:after {
+			z-index: 3;
+		}
+	}
+}
+.blog-post {
+	.label-wrapper.textarea {
+		margin-bottom: 20px;
+		textarea {
+			height: 217px;
+		}
+	}
+}

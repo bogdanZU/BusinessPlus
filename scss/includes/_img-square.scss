@@ -1,0 +1,43 @@
+.img-square {
+	display: inline-block;
+	vertical-align: top;
+	width: 165px;
+	height: 157px;
+	background-color: black;
+	position: relative;
+	&-careers {
+		margin: 8px 98px 48px 0;
+		&:after {
+			background-image: url(../img/images-4.jpg);
+		}
+	}
+	&:before {
+		background: #ffffff;
+		bottom: -38px;
+		content: "";
+		height: 137px;
+		left: 108px;
+		position: absolute;
+		width: 145px;
+		z-index: 2;
+	}
+	&:after {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		content: '';
+		left: 98px;
+		bottom: -48px;
+		z-index: 1;
+	}
+	img {
+		display: block;
+		width: 100%;
+		height: 157px;
+		position: relative;
+		z-index: 3;
+	}
+}

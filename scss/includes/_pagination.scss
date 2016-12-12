@@ -1,0 +1,29 @@
+.main-pagination {
+	margin-top: 44px;
+	padding-bottom: 115px;
+	li {
+		padding-left: 8px;
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+	a {
+		display: block;
+		width: 51px;
+		height: 51px;
+		color: #000000;
+		border: 2px solid #000000;
+		text-align: center;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 47px;
+		&.active {
+			color: #ffaf36;
+			border: 2px solid #ffaf36;
+		}
+		&:hover {
+			color: #ffaf36;
+			border: 2px solid #ffaf36;
+		}
+	}
+}

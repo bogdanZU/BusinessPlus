@@ -1,0 +1,17 @@
+.banner {
+	background: #000000;
+	margin-bottom: 92px;
+	overflow: hidden;
+	height: 395px;
+	position: relative;
+	img {
+		display: block;
+		min-width: 100%;
+		opacity: 0.4;
+		min-height: 395px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

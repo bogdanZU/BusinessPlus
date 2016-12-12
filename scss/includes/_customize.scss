@@ -1,0 +1,99 @@
+.full-white {
+	color: #ffffff;
+	&:hover {
+		color: #ffffff;
+	}
+	&:active {
+		color: #ffffff;
+	}
+	&:focus {
+		color: #ffffff;
+	}
+}
+.full-black {
+	color: #000000;
+	&:hover {
+		color: #000000;
+	}
+	&:active {
+		color: #000000;
+	}
+	&:focus {
+		color: #000000;
+	}
+}
+.back-blue {
+	background: #36a8ff;
+}
+.back-papayawhip {
+	background: #fef1de;
+}
+.back-gray {
+	background: #eaeff3;
+}
+.border-bottom-gray {
+	border-bottom: 1px solid #e6e9ee;
+}
+.absoute-line {
+	position: relative;
+	&:after {
+		position: absolute;
+		content: '';
+		background: #e6e9ee;
+		width: calc(100% - 30px);
+		left: 15px;
+		bottom: 0;
+		height: 1px;
+	}
+}
+.block-item {
+	padding-bottom: 70px;
+}
+.text {
+	p {
+		font-size: 14px;
+		color: #585858;
+		font-weight: 400;
+		line-height: 28px;
+		margin-bottom: 0;
+	}
+	&-bottom {
+		margin-top: 40px; 
+		margin-bottom: 60px;
+		p {
+			padding-right: 3%;
+		}
+	}
+	&-packages {
+		margin-top: 15px;
+		margin-bottom: 40px;
+		p {
+		}
+	}
+	&-article {
+		margin-top: 35px;
+		margin-bottom: 53px;
+		p {
+			padding-right: 25px;
+		}
+	}
+	&-about-us {
+		p {
+		}
+	}
+	&-mission {
+		padding-left: 2.2%;
+		padding-right: 2%;
+	}
+	&-vision {
+		padding-right: 2.2%;
+		padding-left: 2%;
+	}
+}
+.img-wrapper {
+	background: black;
+	img {
+		display: block;
+		opacity: 0.5;
+	}
+}

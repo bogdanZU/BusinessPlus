@@ -1,0 +1,107 @@
+.open-positions {
+	padding-top: 86px;
+	& > header {
+		.heading {
+			letter-spacing: 0.08em;
+		}
+		.sub-heading {
+			letter-spacing: 0.01em;
+			padding-top: 7px;
+		}
+	}
+}
+.accordion {
+	padding-bottom: 130px;
+	& > li {
+		padding-bottom: 26px;
+		margin-bottom: 22px;
+		position: relative;
+		& > a {
+			font-size: 16px;
+			letter-spacing: 0.1em;
+			margin: 15px 0;
+			display: inline-block;
+			vertical-align: top;
+			&:before {
+				content: '';
+				height: 41px;
+				width: 40px;
+				right: -10px;
+				top: 9px;
+				position: absolute;
+				background-image: url(../img/arrow.png);
+				background-repeat: no-repeat;
+				background-position: 0 0;
+			}
+			&.active {
+				&:before {
+					background-position: -40px 0;
+				}
+			}
+			&:hover {
+				color: #a56a1e;
+			}
+		}
+	}
+	.mission,
+	.list,
+	.location,
+	.type,
+	.other {
+		padding-bottom: 25px;
+		& > .heading {
+			font-size: 15px;
+			color: #1c1c1c;
+			font-weight: 600;
+			letter-spacing: 0.1em;
+			display: inline-block;
+			vertical-align: top;
+			width: 35%;
+			padding-top: 5px;
+		}
+		.text {
+			display: inline-block;
+			vertical-align: top;
+			width: 65%;
+		}
+		span {
+
+		}
+	}
+	.mission,
+	.location {
+		padding-top: 33px;
+	}
+	.other {
+		.text {
+			width: 62%;
+		}
+	}
+	.list {
+		ul {
+			display: inline-block;
+			vertical-align: top;
+			width: 65%;
+		}
+		li {
+			padding-left: 29px;
+			position: relative;
+			&:before {
+				font-size: 12px;
+				color: #1c1c1c;
+				position: absolute;
+				left: -1px;
+				top: 13px;
+			}
+			p {
+				font-size: 14px;
+				line-height: 36px;
+				color: #585858;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.item-accordion {
+	display: none;
+}
